@@ -7,3 +7,4 @@ uploads/**
 build
 dist
 server-config.js
+.idea
