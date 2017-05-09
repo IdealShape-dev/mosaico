@@ -8,3 +8,4 @@ build
 dist
 server-config.js
 .idea
+.idea/*
