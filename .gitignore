@@ -9,3 +9,4 @@ dist
 server-config.js
 .idea
 .idea/*
+/.idea/mosaico.iml
