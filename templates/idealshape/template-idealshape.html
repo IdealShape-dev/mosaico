@@ -110,7 +110,6 @@
             frameTheme:preview { -ko-background-color: @[backgroundColor] }
             template preheaderText { label: Preheader; }
 
-            template { label: Page; theme: frameTheme ;properties:  preheaderVisible=false; version: 1.0.6; idealshapeHeaderVisible=true; }
             template { label: Page Header; theme: frameTheme ;properties: idealshapeHeaderVisible=true; socialFooterVisible=true;}
             template { label: Page Properties; theme: frameTheme ;properties: socialFooterVisible=true;}
 
@@ -451,7 +450,7 @@
                                          alt="IdealShape"
                                          width="570"
                                          height="143"
-                                         style="display: block; border-radius: 0px; width: 100%; max-width: 570px; height: auto; font-size: 15px; font-family: Arial, Helvetica, sans-serif; color: #3f3f3f; -ko-font-size: @[longTextStyle.size]px; -ko-font-family: @longTextStyle.face; -ko-color: @longTextStyle.color; -ko-attr-alt: @image.alt;" />
+                                         style="display: block; border-radius: 0px; width: 570px; max-width: 100%; height: auto; font-size: 15px; font-family: Arial, Helvetica, sans-serif; color: #3f3f3f; -ko-font-size: @[longTextStyle.size]px; -ko-font-family: @longTextStyle.face; -ko-color: @longTextStyle.color; -ko-attr-alt: @image.alt;" />
                                 </td>
                             </tr>
                         </table>
@@ -582,7 +581,7 @@
                             <tr data-ko-display="imageVisible">
                                 <td width="100%" valign="top" align="left" class="links-color">
                                     <a data-ko-link="image.url" href="">
-                                        <img data-ko-editable="image.src" border="0" hspace="0" vspace="0" width="534" data-ko-placeholder-height="200"
+                                        <img data-ko-editable="image.src" data-ko-src="image.src" border="0" hspace="0" vspace="0" width="534" data-ko-placeholder-height="200"
                                              src="http://mosaico.io/srv/f-default/img?method=placeholder&amp;params=534%2C200" class="mobile-full"
                                              alt="" style="vertical-align:top; max-width:534px; width: 100%; height: auto;
                   -ko-attr-alt: @image.alt" />
@@ -1337,53 +1336,51 @@
                             <tr>
                                 <td valign="top" align="center">
                                     <!--[if (gte mso 9)|(lte ie 8)]>
-                                    <table align="center" border="0" cellspacing="0" cellpadding="0" width="552">
+                                    <table align="center" border="0" cellspacing="0" cellpadding="0" width="350">
                                         <tr>
-                                            <td align="center" valign="top" width="552">
+                                            <td align="center" valign="top" width="350">
                                     <![endif]-->
-                                    <table width="80%" cellpadding="0" cellspacing="0" border="0">
+                                    <table width="350" cellpadding="0" cellspacing="0" border="0" style="max-width:350px; width:100% ">
                                         <tr>
-                                            <td align="center"></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
+                                            <td align="center" valign="top" width="50" style="width:14.286%; max-width:50px;">
+                                                <a href="https://www.facebook.com/idealshape" target="_blank">
+                                                    <img align="middle" border="0" width="50" height="67" style="width:50px; max-width:100%; height:auto;" src="https://s1.thcdn.com/design-assets/ideal/img/idealshape/email-images/core/facebook.png" alt="facebook" />
+                                                </a>
+                                            </td>
+                                            <td align="center" valign="top" width="25" style="width: 6.7175%; max-width:25px;">
+                                                <img align="middle" border="0" style="width: 100%; max-width:25px; height:auto;" src="https://s1.thcdn.com/design-assets/ideal/img/idealshape/email-images/core/spacer-25.png" alt="" width="25" height="67" />
+                                            </td>
+                                            <td align="center" valign="top" width="50" style="width:14.286%; max-width:50px;">
+                                                <a href="http://www.pinterest.com/idealshape" target="_blank">
+                                                    <img align="middle" border="0" width="50" height="67" style="width:50px; max-width:100%; height:auto;" src="https://s1.thcdn.com/design-assets/ideal/img/idealshape/email-images/core/pinterest.png" alt="pinterest" />
+                                                </a>
+                                            </td>
+                                            <td align="center" valign="top" width="25" style="width: 6.7175%; max-width:25px;">
+                                                <img align="middle" border="0" style="width: 100%; max-width:25px; height:auto;" src="https://s1.thcdn.com/design-assets/ideal/img/idealshape/email-images/core/spacer-25.png" alt="" width="25" height="67" />
+                                            </td>
+                                            <td align="center" valign="top" width="50" style="width:14.286%; max-width:50px;">
+                                                <a href="http://www.instagram.com/idealshape" target="_blank">
+                                                    <img align="middle" border="0" width="50" height="67" style="width:50px; max-width:100%; height:auto;" src="https://s1.thcdn.com/design-assets/ideal/img/idealshape/email-images/core/instagram.png" alt="instagram" />
+                                                </a>
+                                            </td>
+                                            <td align="center" valign="top" width="25" style="width: 6.7175%; max-width:25px;">
+                                                <img align="middle" border="0" style="width: 100%; max-width:25px; height:auto;" src="https://s1.thcdn.com/design-assets/ideal/img/idealshape/email-images/core/spacer-25.png" alt="" width="25" height="67" />
+                                            </td>
+                                            <td align="center" valign="top" width="50" style="width:14.286%; max-width:50px;">
+                                                <a href="https://twitter.com/idealshape" target="_blank">
+                                                    <img align="middle" border="0" width="50" height="67" style="width:50px; max-width:100%; height:auto;" src="https://s1.thcdn.com/design-assets/ideal/img/idealshape/email-images/core/twitter.png" alt="twitter" />
+                                                </a>
+                                            </td>
+                                            <td align="center" valign="top" width="25" style="width: 6.7175%; max-width:25px;">
+                                                <img align="middle" border="0" style="width: 100%; max-width:25px; height:auto;" src="https://s1.thcdn.com/design-assets/ideal/img/idealshape/email-images/core/spacer-25.png" alt="" width="25" height="67" />
+                                            </td>
+                                            <td align="center" valign="top" width="50" style="width:14.286%; max-width:50px;">
+                                                <a href="http://www.youtube.com/idealshape" target="_blank">
+                                                    <img align="middle" border="0" width="50" height="67" style="width:50px; max-width:100%; height:auto;" src="https://s1.thcdn.com/design-assets/ideal/img/idealshape/email-images/core/youtube.png" alt="youtube" />
+                                                </a>
+                                            </td>
                                         </tr>
                                     </table>
-                                    <!-- TODO: Try placing these into table cells -->
-
-                                    <a href="https://www.facebook.com/idealshape" target="_blank" style="display:inline-block; max-width:9.1%">
-                                        <img align="middle" border="0" width="50" height="67" style="max-width:50px; max-width:100%; height:auto;" src="https://s1.thcdn.com/design-assets/ideal/img/idealshape/email-images/core/facebook.png" alt="facebook" />
-                                    </a>
-                                    <span style="display:inline-block; max-width:4.46%;">
-                                        <img align="middle" border="0" style="width: 100%; max-width:25px; height:auto;" src="https://s1.thcdn.com/design-assets/ideal/img/idealshape/email-images/core/spacer-25.png" alt="" width="25" height="67" />
-                                    </span>
-                                    <a href="http://www.pinterest.com/idealshape" target="_blank" style="display:inline-block; max-width:9.1%">
-                                        <img align="middle" border="0" width="50" height="67" style="max-width:50px; width:100%; height:auto;" src="https://s1.thcdn.com/design-assets/ideal/img/idealshape/email-images/core/pinterest.png" alt="pinterest" />
-                                    </a>
-                                    <span style="display:inline-block; max-width:4.46%;">
-                                        <img align="middle" border="0" style=" max-width:25px; width: 100%; height:auto;" src="https://s1.thcdn.com/design-assets/ideal/img/idealshape/email-images/core/spacer-25.png" alt="" width="25" height="67" />
-                                    </span>
-                                    <a href="http://www.instagram.com/idealshape" target="_blank" style="display:inline-block; max-width:9.1%">
-                                        <img align="middle" border="0" width="50" height="67" style="max-width:50px; width:100%; height:auto;" src="https://s1.thcdn.com/design-assets/ideal/img/idealshape/email-images/core/instagram.png" alt="instagram" />
-                                    </a>
-                                    <span style="display:inline-block; max-width:4.46%;">
-                                        <img align="middle" border="0" style="max-width:25px; width: 100%; height:auto; display:block;" src="https://s1.thcdn.com/design-assets/ideal/img/idealshape/email-images/core/spacer-25.png" alt="" width="25" height="67" />
-                                    </span>
-                                    <a href="https://twitter.com/idealshape" target="_blank" style="display:inline-block; max-width:9.1%">
-                                        <img align="middle" border="0" width="50" height="67" style="max-width:50px; width:100%; height:auto;" src="https://s1.thcdn.com/design-assets/ideal/img/idealshape/email-images/core/twitter.png" alt="twitter" />
-                                    </a>
-                                    <span style="display:inline-block; max-width:4.46%;">
-                                        <img align="middle" border="0" style="max-width:25px; width: 100%; height:auto;" src="https://s1.thcdn.com/design-assets/ideal/img/idealshape/email-images/core/spacer-25.png" alt="" width="25" height="67" />
-                                    </span>
-                                    <a href="http://www.youtube.com/idealshape" target="_blank" style="display:inline-block; max-width:9.1%">
-                                        <img align="middle" border="0" width="50" height="67" style="max-width:50px; width:100%; height:auto;" src="https://s1.thcdn.com/design-assets/ideal/img/idealshape/email-images/core/youtube.png" alt="youtube" />
-                                    </a>
-
                                     <!--[if (gte mso 9)|(lte ie 8)]>
                                     </td>
                                     </tr>
