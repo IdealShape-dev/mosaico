@@ -170,7 +170,9 @@ ko.bindingHandlers.wysiwyg = {
   currentIndex: 0,
   standardOptions: {},
   fullOptions: {
-    toolbar1: 'bold italic forecolor backcolor hr styleselect removeformat | link unlink | pastetext code',
+    toolbar1: 'bold italic forecolor link unlink alignleft aligncenter | bullist numlist formatselect fontsizeselect',
+    fontsize_formats: '13px 15px 18px 21px',
+    // toolbar1: 'bold italic forecolor backcolor hr styleselect removeformat | link unlink | pastetext code',
     //toolbar1: "bold italic | forecolor backcolor | link unlink | hr | pastetext code", // | newsletter_profile newsletter_optlink newsletter_unsubscribe newsletter_showlink";
     //toolbar2: "formatselect fontselect fontsizeselect | alignleft aligncenter alignright alignjustify | bullist numlist",
     plugins: ["link hr paste lists textcolor code"],
