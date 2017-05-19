@@ -170,8 +170,12 @@ ko.bindingHandlers.wysiwyg = {
   currentIndex: 0,
   standardOptions: {},
   fullOptions: {
-    toolbar1: 'bold italic forecolor link unlink alignleft aligncenter | bullist numlist formatselect fontsizeselect',
-    fontsize_formats: '13pt 15pt 18pt',
+
+    toolbar1: 'bold italic strikethrough underline blockquote link unlink alignleft aligncenter | removeformat code',
+    toolbar2: 'bullist numlist formatselect forecolor fontsizeselect',
+    fontsize_formats: '11pt 13pt 15pt 18pt',
+    block_formats: 'Paragraph=p;Header 1=h1;Header 2=h2;',
+    browser_spellcheck: true,
     // toolbar1: 'bold italic forecolor backcolor hr styleselect removeformat | link unlink | pastetext code',
     //toolbar1: "bold italic | forecolor backcolor | link unlink | hr | pastetext code", // | newsletter_profile newsletter_optlink newsletter_unsubscribe newsletter_showlink";
     //toolbar2: "formatselect fontselect fontsizeselect | alignleft aligncenter alignright alignjustify | bullist numlist",
@@ -211,9 +215,10 @@ ko.bindingHandlers.wysiwyg = {
       inline: true,
       // maybe not needed, but won't hurt.
       hidden_input: false,
-      plugins: ["paste"],
-      toolbar1: "bold italic fontsizeselect",
-      toolbar2: "",
+      plugins: ["paste link"],
+      toolbar1: "bold italic strikethrough | fontsizeselect | link unlink",
+      fontsize_formats: '11pt 13pt 15pt 18pt',
+      // toolbar2: "",
       // we have to disable preview_styles otherwise tinymce push inline every style he things will be applied and this makes the style menu to inherit color/font-family and more.
       preview_styles: false,
       paste_as_text: true,
