@@ -171,7 +171,7 @@ ko.bindingHandlers.wysiwyg = {
   standardOptions: {},
   fullOptions: {
 
-    toolbar1: 'bold italic strikethrough underline blockquote link unlink alignleft aligncenter | removeformat code',
+    toolbar1: 'bold italic strikethrough underline blockquote link unlink alignleft aligncenter | code',
     toolbar2: 'bullist numlist formatselect forecolor fontsizeselect',
     fontsize_formats: '11pt 13pt 15pt 18pt',
     block_formats: 'Paragraph=p;Header 1=h1;Header 2=h2;',
