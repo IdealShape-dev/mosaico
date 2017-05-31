@@ -7,5 +7,5 @@ uploads/**
 build
 dist
 server-config.js
-.idea
-.idea/*
+.idea/
+edres/
